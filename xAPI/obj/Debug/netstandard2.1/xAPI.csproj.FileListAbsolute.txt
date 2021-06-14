@@ -7,3 +7,11 @@ C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\bin\Debug\netstand
 C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\bin\Debug\netstandard2.1\xAPI.pdb
 C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\obj\Debug\netstandard2.1\xAPI.dll
 C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\obj\Debug\netstandard2.1\xAPI.pdb
+E:\Work\izzi.learning.record.storage.v2\xAPI\bin\Debug\netstandard2.1\xAPI.deps.json
+E:\Work\izzi.learning.record.storage.v2\xAPI\bin\Debug\netstandard2.1\xAPI.dll
+E:\Work\izzi.learning.record.storage.v2\xAPI\bin\Debug\netstandard2.1\xAPI.pdb
+E:\Work\izzi.learning.record.storage.v2\xAPI\obj\Debug\netstandard2.1\xAPI.csprojAssemblyReference.cache
+E:\Work\izzi.learning.record.storage.v2\xAPI\obj\Debug\netstandard2.1\xAPI.AssemblyInfoInputs.cache
+E:\Work\izzi.learning.record.storage.v2\xAPI\obj\Debug\netstandard2.1\xAPI.AssemblyInfo.cs
+E:\Work\izzi.learning.record.storage.v2\xAPI\obj\Debug\netstandard2.1\xAPI.dll
+E:\Work\izzi.learning.record.storage.v2\xAPI\obj\Debug\netstandard2.1\xAPI.pdb

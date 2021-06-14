@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huyqu\\source\\repos\\izzi.learning.record.storage\\xAPI\\xAPI.csproj": {}
+    "E:\\Work\\izzi.learning.record.storage.v2\\xAPI\\xAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huyqu\\source\\repos\\izzi.learning.record.storage\\xAPI\\xAPI.csproj": {
+    "E:\\Work\\izzi.learning.record.storage.v2\\xAPI\\xAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huyqu\\source\\repos\\izzi.learning.record.storage\\xAPI\\xAPI.csproj",
+        "projectUniqueName": "E:\\Work\\izzi.learning.record.storage.v2\\xAPI\\xAPI.csproj",
         "projectName": "xAPI",
-        "projectPath": "C:\\Users\\huyqu\\source\\repos\\izzi.learning.record.storage\\xAPI\\xAPI.csproj",
+        "projectPath": "E:\\Work\\izzi.learning.record.storage.v2\\xAPI\\xAPI.csproj",
         "packagesPath": "C:\\Users\\huyqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huyqu\\source\\repos\\izzi.learning.record.storage\\xAPI\\obj\\",
+        "outputPath": "E:\\Work\\izzi.learning.record.storage.v2\\xAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\huyqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -21,12 +24,12 @@
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://nuget.labo.io/nuget/Foodizzi/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -39,7 +42,6 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
           "dependencies": {
             "GraphQL": {
               "target": "Package",
@@ -56,6 +58,10 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[2.1.14, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -73,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

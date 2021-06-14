@@ -38,6 +38,7 @@ namespace izzi.learning.record.storage
             services.AddSingleton<DescriptionType>();
             services.AddSingleton<StatementType>();
             services.AddSingleton<StatementInputType>();
+            services.AddSingleton<ObjectGraphType>();
             services.AddSingleton<FilterDetailType>();
             services.AddSingleton<CharacterInterface>();
             services.AddSingleton<EpisodeEnum>();

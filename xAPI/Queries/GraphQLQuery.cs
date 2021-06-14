@@ -1,10 +1,12 @@
 ﻿using GraphQL;
 using GraphQL.Types;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using xAPI.Models;
 using xAPI.Models.LRSDbContext;
 using xAPI.Types;
 
@@ -17,6 +19,7 @@ namespace xAPI.Queries
             AttendanceQueries(dbContext);
             ActorQuery(dbContext);
             StatementQuery(dbContext);
+            ActorInfoQuery(dbContext);
         }
 
         public void AttendanceQueries(LRSDbContext dbContext)
@@ -67,6 +70,27 @@ namespace xAPI.Queries
                    var param = context.GetArgument<Filter>("param");
                    return dbContext.Statements.Where(e => e.Id.Equals(param.Id)).SingleOrDefault();
                });
+        }
+
+        public void ActorInfoQuery(LRSDbContext dbContext)
+        {
+            Name = "ActorInfoQuery";
+            Field<ActorType>(
+                "actorInfo",
+                arguments: new QueryArguments(
+                   new QueryArgument<NonNullGraphType<FilterDetailType>> { Name = "param" }
+                   ),
+                resolve: context =>
+                {
+                    var param = context.GetArgument<Filter>("param");
+                    var data = dbContext.Statements.Where(e => e.Id.Equals(param.Id)).SingleOrDefault();
+
+                    var actorJson = data.Actor;
+
+                    var actor = JsonConvert.DeserializeObject<Actor>(actorJson);
+
+                    return actor;
+                });
         }
     }
 }

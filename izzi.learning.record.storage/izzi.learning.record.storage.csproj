@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\izzi.learning.record.storage\xAPI\xAPI.csproj" />
+    <ProjectReference Include="..\..\izzi.learning.record.storage.v2\xAPI\xAPI.csproj" />
   </ItemGroup>
 
 </Project>
