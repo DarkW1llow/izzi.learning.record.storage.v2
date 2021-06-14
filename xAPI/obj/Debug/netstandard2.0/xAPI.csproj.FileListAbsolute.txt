@@ -1,0 +1,9 @@
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\bin\Debug\netstandard2.0\xAPI.deps.json
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\bin\Debug\netstandard2.0\xAPI.dll
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\bin\Debug\netstandard2.0\xAPI.pdb
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\obj\Debug\netstandard2.0\xAPI.csprojAssemblyReference.cache
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\obj\Debug\netstandard2.0\xAPI.AssemblyInfoInputs.cache
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\obj\Debug\netstandard2.0\xAPI.AssemblyInfo.cs
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\obj\Debug\netstandard2.0\xAPI.csproj.CoreCompileInputs.cache
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\obj\Debug\netstandard2.0\xAPI.dll
+C:\Users\huyqu\source\repos\izzi.learning.record.storage\xAPI\obj\Debug\netstandard2.0\xAPI.pdb
